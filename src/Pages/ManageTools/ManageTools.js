@@ -11,7 +11,7 @@ const ManageTools = () => {
     const navigate = useNavigate();
 
     const navigateToAddProduct = () => {
-        navigate(`/addproduct`);
+        navigate(`/addtools`);
     }
 
     const handleDelete = id => {

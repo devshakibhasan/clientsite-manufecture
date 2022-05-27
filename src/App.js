@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Pages/Blogs/Blogs';
 
-import AddProduct from './Pages/AddProducts/AddProducts';
 import ManageTools from './Pages/ManageTools/ManageTools';
 import Checkout from './Pages/Checkout/Checkout/Checkout';
 import Home from './Pages/Home/Home/Home';
@@ -28,7 +27,9 @@ import MyItemShow from './Pages/DashBoard/MyOrderShow/MyItemShow';
 import MyItem from './Pages/DashBoard/MyItem/MyItem';
 import MyOrder from './Pages/MyOrders/MyOrders';
 import MyOrders from './Pages/MyOrders/MyOrders';
+import AddReview from './Pages/AddReview/AddReview';
 import Users from './Pages/DashBoard/User/User';
+import AddProduct from './Pages/AddProducts/AddProducts';
 
 function App() {
   return (
@@ -42,9 +43,10 @@ function App() {
 
         <Route path="dashboard" element={<RequireAuth><DashBoard /></RequireAuth>} >
           <Route path='myOrders' element={<MyOrders></MyOrders>}></Route>
-          <Route path="review" element={<AddProduct></AddProduct>}></Route>
+          <Route path="review" element={<AddReview></AddReview>}></Route>
           <Route path="myPortfolio" element={<MyPortfolio></MyPortfolio>}></Route>
           <Route path="users" element={<Users></Users>}></Route>
+          <Route path="managetools" element={<ManageTools></ManageTools>}></Route>
         </Route>
         {/* 
         <Route path='/myPortfolio' element={
@@ -69,17 +71,18 @@ function App() {
           </RequireAuth>
         }></Route>
 
-        <Route path="/addproduct" element={
+        <Route path="/addreview" element={
+          <RequireAuth>
+            <AddReview></AddReview>
+          </RequireAuth>
+        }></Route>
+        <Route path="/addtools" element={
           <RequireAuth>
             <AddProduct></AddProduct>
           </RequireAuth>
         }></Route>
 
-        <Route path="/managetools" element={
-          <RequireAuth>
-            <ManageTools></ManageTools>
-          </RequireAuth>
-        }></Route>
+       
         <Route path="/orders" element={
           <RequireAuth>
             <Order></Order>
