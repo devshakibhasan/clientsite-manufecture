@@ -10,10 +10,10 @@ class MyPortfolio extends Component {
 
 
 
-   
-        
-        
-        
+
+
+
+
         return (
             <div className='myPortfolio'>
 
@@ -195,54 +195,107 @@ class MyPortfolio extends Component {
                         </div>
                     </div>
                 </div>
+
+
+                {/* <!-- Skill End --> */}
+
+
+
+                {/* <!-- Work Start --> */}
+                <div class="container-fluid py-5" id="skill">
+                    <div class="container">
+                        <div class="position-relative d-flex align-items-center justify-content-center">
+                            <h1 class="display-1 text-uppercase text-white">Here Is my Work</h1>
+                            <h1 class="position-absolute text-uppercase text-primary">My Work</h1>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <h3 class="mb-4">My Best Work</h3>
+                                <div class="border-left border-secndary pt-2 pl-4 ml-2">
+                                    <div class="position-relative mb-4">
+                                        <FontAwesomeIcon icon={faDotCircle} className='text-primary position-absolute iconC' />  <i class="far fa-dot-circle text-primary position-absolute"  ></i>
+                                        <h5 class="font-weight-bold mb-1">Electronic Warehouse</h5>
+                                        <p class="mb-2"><strong>Electronic Warehouse system Website</strong> | <small>2022</small></p>
+                                        <p>https://electronic-warehouse.netlify.app/</p>
+                                    </div>
+                                    <div class="position-relative mb-4">
+                                        <FontAwesomeIcon icon={faDotCircle} className='text-primary position-absolute iconC' />    <i class="far fa-dot-circle text-primary position-absolute"  ></i>
+                                        <h5 class="font-weight-bold mb-1">Eyewear Shop</h5>
+                                        <p class="mb-2"><strong>sunglasses selling Website</strong> | <small>2022</small></p>
+                                        <p>https://eyewear-shop.netlify.app/</p>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <h3 class="mb-4">My Best Work</h3>
+                                <div class="border-left border-secndary pt-2 pl-4 ml-2">
+                                    <div class="position-relative mb-4">
+                                        <FontAwesomeIcon icon={faDotCircle} className='text-primary position-absolute iconC' />     <i class="far fa-dot-circle text-primary position-absolute"  ></i>
+                                        <h5 class="font-weight-bold mb-1">Wewatch Shop</h5>
+                                        <p class="mb-2"><strong>Watch Selling Website</strong> | <small>2020</small></p>
+                                        <p>https://wewatch-shop.netlify.app/</p>
+                                    </div>
+                                    <div class="position-relative mb-4">
+                                        <FontAwesomeIcon icon={faDotCircle} className='text-primary position-absolute iconC' />   <i class="far fa-dot-circle text-primary position-absolute"  ></i>
+                                        <h5 class="font-weight-bold mb-1">Manufecture Tools</h5>
+                                        <p class="mb-2"><strong>Manufecture Tools Selling site</strong> | <small>2022</small></p>
+                                        <p>https://manufecture-tools.netlify.app/</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/* <!-- Skill End --> */}
 
 
                 {/* <!-- Contact Start --> */}
-    <div class="container-fluid py-5" id="contact">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" >Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
+                <div class="container-fluid py-5" id="contact">
+                    <div class="container">
+                        <div class="position-relative d-flex align-items-center justify-content-center">
+                            <h1 class="display-1 text-uppercase text-white" >Contact</h1>
+                            <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="contact-form text-center">
+                                    <div id="success"></div>
+                                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                        <div class="form-row">
+                                            <div class="control-group col-sm-6">
+                                                <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                                    required="required" data-validation-required-message="Please enter your name" />
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="control-group col-sm-6">
+                                                <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                                    required="required" data-validation-required-message="Please enter your email" />
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                                required="required" data-validation-required-message="Please enter a subject" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="control-group">
+                                            <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                                required="required"
+                                                data-validation-required-message="Please enter your message"></textarea>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                                Message</button>
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
                             </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                    Message</button>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
             </div>
         );

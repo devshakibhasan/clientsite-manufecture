@@ -20,7 +20,7 @@ const HomeTools = () => {
     return (
         <div id="products" className='container'>
             <div className="row">
-                <h1 className=' text-center mt-5 mb-5'>Featured Product </h1>
+                <h1 className=' text-center mt-5 mb-5'>Featured Tools </h1>
                 <div className="products-container">
                     {
                         products.map(service => <ShowTools
