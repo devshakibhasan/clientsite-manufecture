@@ -1,0 +1,110 @@
+[
+    {
+      "_id": "628b7a6da1636ab4f945558a",
+      "name": "Pliers",
+      "img": "https://i.ibb.co/s9sRBZz/17886fe8bde2023f.pnghttps://i.ibb.co/s9sRBZz/17886fe8bde2023f.png",
+      "description": "These have long tapered jaws making them ideal for gripping small objects.",
+      "price": "$12",
+      "minimum_order_quantity": "20",
+      "available-quantity": "150"
+    },
+    {
+      "_id": "628b7a6da1636ab4f9455589",
+      "name": "Screwdrivers",
+      "img": "https://i.ibb.co/cXcQkKN/8-pc-screwdriver-set-500x500-removebg-preview.pnghttps://i.ibb.co/cXcQkKN/8-pc-screwdriver-set-500x500-removebg-preview.png",
+      "description": "Screwdrivers work through the simple application of torque",
+      "price": "$9",
+      "available-quantity": "160",
+      "minimum_order_quantity": "15"
+    },
+    {
+      "_id": "628b7a6da1636ab4f945558d",
+      "name": "Cable cutters",
+      "img": "https://i.ibb.co/wYF9B8W/9531250-00-3-removebg-preview.pnghttps://i.ibb.co/wYF9B8W/9531250-00-3-removebg-preview.png",
+      "description": "Cable cutters are a staple of every electrician’s tool kit.",
+      "price": "$12",
+      "available-quantity": "120",
+      "minimum_order_quantity": "25"
+    },
+    {
+      "_id": "628b7a6da1636ab4f9455588",
+      "name": " Wire strippers",
+      "img": "https://i.ibb.co/zZDqKh0/715a-MP3f2-IL-AC-SL1500-removebg-preview-1.pnghttps://i.ibb.co/zZDqKh0/715a-MP3f2-IL-AC-SL1500-removebg-preview-1.png",
+      "description": "Wire strippers are plier-like tools used to remove the insulating outer sheath from cables",
+      "price": "$11",
+      "minimum_order_quantity": "20",
+      "available-quantity": "200"
+    },
+    {
+      "_id": "628b7a6da1636ab4f945558e",
+      "name": "Spanners",
+      "img": "https://i.ibb.co/CnsjLqY/steel-spanners-500x500-removebg-preview.pnghttps://i.ibb.co/CnsjLqY/steel-spanners-500x500-removebg-preview.png",
+      "description": "Spanners will almost certainly be an essential inclusion in your tool kit if you regularly need to loosen or attach nuts, bolts or similar fixings.",
+      "available-quantity": "60",
+      "price": "$16",
+      "minimum_order_quantity": "15"
+    },
+    {
+      "_id": "628b7a6da1636ab4f945558b",
+      "name": "Electrical tape",
+      "img": "https://i.ibb.co/ZVy6ksS/www-ubuy-com-bd-removebg-preview.pnghttps://i.ibb.co/ZVy6ksS/www-ubuy-com-bd-removebg-preview.png",
+      "description": "Electrical tape is used to insulate wires or other items that conduct electricity.",
+      "available-quantity": "90",
+      "price": "$5",
+      "minimum_order_quantity": "30"
+    },
+    {
+      "_id": "628b7a6da1636ab4f9455593",
+      "name": "Torch",
+      "img": "https://i.ibb.co/VNPvJpv/51l-g-JBYya-L-SL1103-removebg-preview.png",
+      "description": "Electrical Torches allows to work in darkened areas",
+      "available-quantity": "50",
+      "price": "$20",
+      "minimum_order_quantity": "5"
+    },
+    {
+      "_id": "628b7a6da1636ab4f9455592",
+      "name": "Chisel",
+      "img": "",
+      "description": "A powerful and time-honoured method of breaking through wood, stone, brick, concrete and similar materials. ",
+      "available-quantity": "200",
+      "price": "$4",
+      "minimum_order_quantity": "30"
+    },
+    {
+      "_id": "628b7a6da1636ab4f9455590",
+      "name": "Hex keys",
+      "img": "",
+      "description": "Hex keys take their name from the hexagonal fasteners and fixings they are used to adjust.",
+      "available-quantity": "70",
+      "price": "$8",
+      "minimum_order_quantity": "20"
+    },
+    {
+      "_id": "628b7a6da1636ab4f945558c",
+      "name": "Hacksaws",
+      "img": "https://i.ibb.co/9hSxZVR/16a26fa5a1bc993f.pnghttps://i.ibb.co/9hSxZVR/16a26fa5a1bc993f.png",
+      "description": "Hacksaws are fine-toothed saws designed primarily for cutting through metal.",
+      "available-quantity": "70",
+      "price": "$24",
+      "minimum_order_quantity": "10"
+    },
+    {
+      "_id": "628b7a6da1636ab4f945558f",
+      "name": "Voltage tester",
+      "img": "",
+      "description": "These are another toolkit standby with a relatively self-explanatory name",
+      "price": "$21",
+      "minimum_order_quantity": "20",
+      "available-quantity": "140"
+    },
+    {
+      "_id": "628b7a6da1636ab4f9455591",
+      "name": "Claw Hammer",
+      "img": "",
+      "description": "Claw hammers feature a standard hammer on one side of the tool, primarily used for inserting fixtures",
+      "price": "$16",
+      "minimum_order_quantity": "15",
+      "available-quantity": "90"
+    }
+  ]
